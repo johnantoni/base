@@ -1,0 +1,20 @@
+---
+layout: nil
+---
+CACHE MANIFEST
+# version 1.0
+
+# All other resources (e.g. sites) require the user to be online. 
+NETWORK:
+*
+
+# offline.html will be displayed if the user is offline
+FALLBACK:
+/ /fallback.html
+
+# Additional resources to cache
+CACHE:
+/css/libs/html5reset-1.6.css
+/css/screen.css
+/css/mobile.css
+/images/general/favicon.ico

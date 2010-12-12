@@ -1,0 +1,15 @@
+log/
+log*.gz
+tmp/**/*
+doc/api
+doc/app
+public/cache/
+index/production/
+_drafts/
+_site/
+db/development.sqlite3
+db/production.sqlite3
+db/test.sqlite3
+.sass-cache/
+.DS_Store
+Thumbs.db

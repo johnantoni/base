@@ -1,0 +1,57 @@
+// ****************************************************************************
+//  Common
+// ****************************************************************************
+
+// Reset
+
+*
+  margin: 0
+  padding: 0
+
+html
+  height: 100%
+
+body
+  color: #333333
+  height: 100%
+  background-color: white
+  font: 15px helvetica, "Liberation Sans", sans-serif
+  text-align: center
+
+h1, h2, h3, h4, h5, h6
+  font-size: 100%
+
+h1
+  margin-bottom: 1em
+
+p
+  margin: 1em 0
+
+a
+  color: #AA0000
+  text-decoration: none
+  &:hover
+    color: #000
+    text-decoration: none
+  &:visited
+    color: #000
+
+table
+  font-size: inherit
+  font: 100%
+
+// Clearfix
+
+.clearfix:after
+  content: "."
+  display: block
+  clear: both
+  visibility: hidden
+  line-height: 0
+  height: 0
+.clearfix
+  display: inline-block
+html[xmlns] .clearfix
+  display: block
+* html .clearfix
+  height: 1%

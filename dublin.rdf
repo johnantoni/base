@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc= "http://purl.org/dc/elements/1.1/">
+<rdf:Description rdf:about=" -- url -- ">
+<dc:contributor> -- your name --</dc:contributor>
+<dc:date>yyyy-mm-dd</dc:date>
+<dc:description> -- description -- </dc:description>
+<dc:language>EN</dc:language>
+<dc:publisher> -- name -- </dc:publisher>
+<dc:source> -- url -- </dc:source>
+</rdf:Description>
+</rdf:RDF>
